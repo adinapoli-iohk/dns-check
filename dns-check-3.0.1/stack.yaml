@@ -1,0 +1,10 @@
+resolver: lts-9.1
+
+packages:
+- .
+
+# Same version in use in cardano-sl/develop
+- location:
+    git: https://github.com/kazu-yamamoto/dns.git
+    commit: b106470f0a93672af22cbc7ed6564b53c0f249ed
+    extra-dep: true
